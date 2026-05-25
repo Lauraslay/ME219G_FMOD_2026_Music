@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{b0f4b359-a3c8-4c0d-9d0d-652a706a6309}">
+		<property name="name">
+			<value>Zone</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{472a89d3-3f6a-4a21-9110-ab05c0295bc0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{472a89d3-3f6a-4a21-9110-ab05c0295bc0}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Start</value>
+			<value>Zone 2</value>
+			<value>Zone 4</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{12b0fda0-964b-4f6c-9ab8-ad782f612ff4}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{12b0fda0-964b-4f6c-9ab8-ad782f612ff4}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.53999996185302734</value>
+		</property>
+	</object>
+</objects>
