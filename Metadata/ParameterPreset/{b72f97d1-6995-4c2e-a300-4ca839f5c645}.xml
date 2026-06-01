@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{b72f97d1-6995-4c2e-a300-4ca839f5c645}">
+		<property name="name">
+			<value>Boss Trigger</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{526ef93b-f9fa-4e60-bf8b-964b1f516930}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{526ef93b-f9fa-4e60-bf8b-964b1f516930}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
