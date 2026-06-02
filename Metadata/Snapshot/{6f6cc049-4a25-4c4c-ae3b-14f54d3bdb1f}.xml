@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{6f6cc049-4a25-4c4c-ae3b-14f54d3bdb1f}">
+		<property name="name">
+			<value>Key Stinger</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{7afe5eec-bbd7-4679-90c4-f244f973b12f}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{8c0ec284-207a-4569-9012-7bd67e41ed14}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{1c66506d-a100-4ecf-84b3-34622b2c6e51}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{45238304-7274-4f34-88e1-c78d5b5b6a25}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{b915cc7f-2342-4641-bf9c-a157ff366cbd}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{6a2ee1fe-97e9-495f-b7fc-1b9db5257ec0}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{7afe5eec-bbd7-4679-90c4-f244f973b12f}" />
+	<object class="MarkerTrack" id="{8c0ec284-207a-4569-9012-7bd67e41ed14}" />
+	<object class="Timeline" id="{1c66506d-a100-4ecf-84b3-34622b2c6e51}" />
+	<object class="SnapshotMasterTrack" id="{45238304-7274-4f34-88e1-c78d5b5b6a25}" />
+	<object class="SnapshotProperty" id="{b915cc7f-2342-4641-bf9c-a157ff366cbd}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-11.5</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{47de7109-60f1-4bb9-955f-14e2be4272bc}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{63728d3a-4f28-4214-9b38-7b44c7a37d96}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{6a2ee1fe-97e9-495f-b7fc-1b9db5257ec0}">
+		<relationship name="automationTracks">
+			<destination>{bfd387dd-4d8f-44bb-a978-ccb67ef76685}</destination>
+		</relationship>
+		<relationship name="mixerStrip">
+			<destination>{63728d3a-4f28-4214-9b38-7b44c7a37d96}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{47de7109-60f1-4bb9-955f-14e2be4272bc}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.66999995708465576</value>
+		</property>
+		<relationship name="automators">
+			<destination>{c5e654dc-d705-4637-ba8f-568e78127ef3}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{bfd387dd-4d8f-44bb-a978-ccb67ef76685}">
+		<relationship name="automator">
+			<destination>{c5e654dc-d705-4637-ba8f-568e78127ef3}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{c5e654dc-d705-4637-ba8f-568e78127ef3}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>speedAscending</value>
+		</property>
+	</object>
+</objects>

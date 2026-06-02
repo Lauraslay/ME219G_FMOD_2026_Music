@@ -20,8 +20,14 @@
 	<object class="MixerBusEffectChain" id="{5218fe31-990c-4324-8bf6-7f12af703f1e}">
 		<relationship name="effects">
 			<destination>{dabac259-1387-4edd-858a-d3fe39d94372}</destination>
+			<destination>{2dd68598-c7ac-489d-bb2f-a0158fe531ba}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{13b241b6-8007-41aa-9566-4a071e3893d6}" />
 	<object class="MixerBusFader" id="{dabac259-1387-4edd-858a-d3fe39d94372}" />
+	<object class="SFXReverbEffect" id="{2dd68598-c7ac-489d-bb2f-a0158fe531ba}">
+		<property name="wetLevel">
+			<value>-80</value>
+		</property>
+	</object>
 </objects>

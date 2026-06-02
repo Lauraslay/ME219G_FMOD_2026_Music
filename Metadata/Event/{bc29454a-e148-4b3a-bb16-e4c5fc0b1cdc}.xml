@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{bc29454a-e148-4b3a-bb16-e4c5fc0b1cdc}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<property name="name">
 			<value>Boss</value>
 		</property>
@@ -34,6 +37,9 @@
 		<relationship name="timeline">
 			<destination>{d9fb1794-c9af-4f60-ab96-8c9a79b35b94}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{0e41109f-2d01-4da2-8a51-0de32d7fc467}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{648caca7-fadd-4d82-911b-96b5e29a38df}">
 		<relationship name="masterBus">
@@ -65,7 +71,7 @@
 			<destination>{7d9ab794-8b8a-4b36-9d84-ca3bbcaaf226}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{63728d3a-4f28-4214-9b38-7b44c7a37d96}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{96af02fb-1efa-4dc0-b9d1-6d9965c11dbc}" />
