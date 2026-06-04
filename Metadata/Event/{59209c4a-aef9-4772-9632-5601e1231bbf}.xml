@@ -5,7 +5,7 @@
 			<value>Magenta</value>
 		</property>
 		<property name="name">
-			<value>Death Stinger</value>
+			<value>GameOver</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -34,6 +34,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{250d8cee-12d1-42e7-add5-5125a3ddc46b}</destination>
+		</relationship>
+		<relationship name="parameters">
+			<destination>{59778cab-8f7c-448f-a42e-d39ced90b834}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{0e41109f-2d01-4da2-8a51-0de32d7fc467}</destination>
@@ -85,7 +88,11 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{fd387380-8f65-4b7a-80f1-759b0644149c}</destination>
-			<destination>{8106bad3-fe6b-447d-8e83-7a56eafdc58a}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{59778cab-8f7c-448f-a42e-d39ced90b834}">
+		<relationship name="preset">
+			<destination>{16b9a4d0-deba-4fe9-8940-533fab85e6fa}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f5cfc717-dbf6-4ba5-afd0-9c6b393b917b}">
@@ -155,20 +162,6 @@
 		</property>
 		<property name="name">
 			<value>Marker A</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{250d8cee-12d1-42e7-add5-5125a3ddc46b}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{97c98f4c-c21d-4dcd-a6d3-cddf5b86c9da}</destination>
-		</relationship>
-	</object>
-	<object class="LoopRegion" id="{8106bad3-fe6b-447d-8e83-7a56eafdc58a}">
-		<property name="position">
-			<value>18</value>
-		</property>
-		<property name="length">
-			<value>2</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{250d8cee-12d1-42e7-add5-5125a3ddc46b}</destination>
