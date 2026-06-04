@@ -5,7 +5,7 @@
 			<value>Magenta</value>
 		</property>
 		<property name="name">
-			<value>Main Menu</value>
+			<value>MusicMenu</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{fba22360-10f3-43af-a06a-16b971ebcfd9}">
+		<property name="name">
+			<value>Reverb</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9ea541d4-4eef-40a4-a2cb-ceba48b15c4a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9ea541d4-4eef-40a4-a2cb-ceba48b15c4a}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{1b032adc-5b4a-49bf-aea5-4b4a090e3d45}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{1b032adc-5b4a-49bf-aea5-4b4a090e3d45}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>
