@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ba7ab7d2-6374-494e-a791-644817b707a9}">
+		<property name="note">
+			<value>Simpelt event med ett track som loopar en låt.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>
@@ -110,7 +113,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7ee4f4e6-dfe0-4471-bfcc-3b90d6b6a589}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>MusicMenu</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{e26fad02-82ad-48cb-a91d-5edefaa38940}</destination>
@@ -127,7 +130,7 @@
 			<value>0</value>
 		</property>
 		<property name="name">
-			<value>Marker A</value>
+			<value>Start</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{1dc1c8ea-56b0-42a6-98f2-186511511aae}</destination>

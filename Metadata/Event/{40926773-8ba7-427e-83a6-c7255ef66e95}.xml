@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{40926773-8ba7-427e-83a6-c7255ef66e95}">
+		<property name="note">
+			<value>Horizontal event med en parameter.
+Parametern BossStage går från -1 till 4.
+
+-1 när spelaren kommer in i rummet. 
+
+0 när spelaren triggar igång cutscenen.
+
+1 - 3 beroende på bossens phase.
+
+4 när bossens hp når 0.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>

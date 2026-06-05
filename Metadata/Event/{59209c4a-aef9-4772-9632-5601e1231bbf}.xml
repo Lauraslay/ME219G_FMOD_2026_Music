@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{59209c4a-aef9-4772-9632-5601e1231bbf}">
+		<property name="note">
+			<value>Med hjälp av en snapshot sm sänker alla andra volymer spelas endast Defeat stingern när den triggas.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>
@@ -121,8 +124,11 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d2a313da-9367-4b87-a3ff-c3419ee286f4}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Defeat</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{5af4ac18-f606-4930-b2c6-78aa68f14080}</destination>
@@ -144,7 +150,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{d0463330-ac1b-4753-bf35-234d9654b2af}">
 		<property name="name">
-			<value>Audio 2</value>
+			<value>Snapshot</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{300e952a-20f6-40c9-bc70-52249f2ecf04}</destination>

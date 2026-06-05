@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5f2b3dca-1714-41de-90be-44cf6620e6cf}">
+		<property name="note">
+			<value>När Stingern spelas minskar andra ljud i volym för att Key stinger ska vara i fokus. Snapshotten minskar i volym mot slutet för att ljuden ska smälta in igen.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>
@@ -117,7 +120,7 @@
 			<value>-8.5</value>
 		</property>
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Key</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{b5a34a02-3054-4d4e-be28-d8ac62db07d0}</destination>
@@ -142,7 +145,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{162c1fd5-45ff-4a7d-8f89-5d082e763c2c}">
 		<property name="name">
-			<value>Audio 2</value>
+			<value>Snapshot</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{841af0cd-c0a5-4c54-8fcd-7a33ec325d94}</destination>

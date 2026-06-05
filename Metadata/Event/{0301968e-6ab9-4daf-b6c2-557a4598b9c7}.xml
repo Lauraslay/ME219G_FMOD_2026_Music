@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0301968e-6ab9-4daf-b6c2-557a4598b9c7}">
+		<property name="note">
+			<value>Vertical event som loopar på samma ställe hela tiden och shftar mellan volymer på varje track berende på parameter. 
+
+Parameter Zone bestämmer vilken zone som ska spelas, medan Parameter Keys säger hur många keys sm har plockats upp och då spelar progression.
+Combat parametern bestämmer om drums ska spelas eller inte.
+
+Alla fadear ut och in med hjälp av seek speed.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>
