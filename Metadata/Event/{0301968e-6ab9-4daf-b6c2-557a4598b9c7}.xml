@@ -54,6 +54,7 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 		<relationship name="parameters">
 			<destination>{76d82241-bcef-4a64-bb8b-61a87fcc4b38}</destination>
 			<destination>{1c3c9c0c-f937-497b-8d2c-373e6f42a63b}</destination>
+			<destination>{8d69fed9-956a-4e5f-9e17-9770732519f6}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{0e41109f-2d01-4da2-8a51-0de32d7fc467}</destination>
@@ -207,6 +208,11 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 	<object class="ParameterProxy" id="{1c3c9c0c-f937-497b-8d2c-373e6f42a63b}">
 		<relationship name="preset">
 			<destination>{a5d48166-ddee-4efe-8bfb-547a2b2326f7}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{8d69fed9-956a-4e5f-9e17-9770732519f6}">
+		<relationship name="preset">
+			<destination>{7a11d3d2-4b24-4ec4-a84b-8bbb55797ecc}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b1555fee-0a2c-4832-b2a6-c2a89ed7fc37}">
@@ -671,6 +677,7 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 		<relationship name="automationCurves">
 			<destination>{ee1a2a64-10f7-4a9b-bbc4-fd66ff4bdae0}</destination>
 			<destination>{6111b30c-f5b4-4b65-97bc-9ba37450cf82}</destination>
+			<destination>{a0f42f63-f66f-4b40-b453-33ed52e47744}</destination>
 		</relationship>
 	</object>
 	<object class="SeekModulator" id="{433acf89-2f48-4d1c-8f05-ade2a1f769cd}">
@@ -705,6 +712,7 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 		<relationship name="automationCurves">
 			<destination>{42d89011-9b4c-42ba-b734-77e0835967ea}</destination>
 			<destination>{586eb34a-8783-49af-9508-fe72067a9e9f}</destination>
+			<destination>{98a7a672-e1f1-41b5-8f05-d0ef28c46daf}</destination>
 		</relationship>
 	</object>
 	<object class="SeekModulator" id="{58fe14ab-7eee-4b79-bce2-209bae22ec45}">
@@ -738,6 +746,7 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 		</property>
 		<relationship name="automationCurves">
 			<destination>{ac758f5d-aeec-44c0-a20f-d859d0765646}</destination>
+			<destination>{b5c76f0f-fcb4-4e90-8761-46d38450f337}</destination>
 		</relationship>
 	</object>
 	<object class="SeekModulator" id="{8a33c7df-3ad4-4ffa-8d53-5ba1a0376658}">
@@ -769,6 +778,7 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 		<relationship name="automationCurves">
 			<destination>{2e874f3c-b539-45bc-bb31-7ac1bb9f137c}</destination>
 			<destination>{fff0e128-5359-4ade-bd50-d29addaca2c8}</destination>
+			<destination>{2f5e6ab4-c66e-45c6-8e59-2ad7172e2bff}</destination>
 		</relationship>
 	</object>
 	<object class="SeekModulator" id="{72299b4c-0879-431e-989a-8797df58759f}">
@@ -803,6 +813,7 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 		<relationship name="automationCurves">
 			<destination>{c3a246f0-0bc4-485f-9934-7312411fedf6}</destination>
 			<destination>{287a621d-8a60-4ea6-8543-ccfe56421f99}</destination>
+			<destination>{46912d1a-45cf-48c1-9e94-bc45f96e6fcf}</destination>
 		</relationship>
 	</object>
 	<object class="SeekModulator" id="{09dc389f-ce29-4d1a-b780-848644c46837}">
@@ -837,6 +848,7 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 		<relationship name="automationCurves">
 			<destination>{a8f375a1-3ee8-48ac-a239-fa95dd04b94f}</destination>
 			<destination>{2abcd4ad-a6dc-4eb8-b2ce-4bd30ea9db0e}</destination>
+			<destination>{d9d5eac1-f8c2-4412-9be1-664100963ba0}</destination>
 		</relationship>
 	</object>
 	<object class="SeekModulator" id="{119eb76d-45ae-4fae-9f54-ac41b7a487fb}">
@@ -871,6 +883,7 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 		<relationship name="automationCurves">
 			<destination>{224a4260-de4d-4567-8c95-55d31cdcb79d}</destination>
 			<destination>{7debe608-b6b5-40db-a4c9-66a2446f4733}</destination>
+			<destination>{65a1fecd-a00e-41e1-b4d5-5c57ed4078ed}</destination>
 		</relationship>
 	</object>
 	<object class="SeekModulator" id="{a0272643-cfa0-4d6e-96ca-7b14979f846b}">
@@ -950,6 +963,15 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 			<destination>{b19b3899-ab1e-417d-aa9b-617b372b60be}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationCurve" id="{a0f42f63-f66f-4b40-b453-33ed52e47744}">
+		<relationship name="parameter">
+			<destination>{7a11d3d2-4b24-4ec4-a84b-8bbb55797ecc}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{64cd5ad0-2436-4d86-b5c7-001bbf276fe0}</destination>
+			<destination>{055033f4-a22f-4c66-8187-c41396be2250}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{ade87f35-5d1d-4b67-8d47-b27bf6dfdc60}" />
 	<object class="AutomationPoint" id="{072fbbc5-21bc-4c87-aec9-9138320857c9}">
 		<property name="position">
@@ -987,6 +1009,15 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 			<destination>{b8b44c60-02bd-4eb0-93c0-e022f780ae4c}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationCurve" id="{98a7a672-e1f1-41b5-8f05-d0ef28c46daf}">
+		<relationship name="parameter">
+			<destination>{7a11d3d2-4b24-4ec4-a84b-8bbb55797ecc}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{5f8954e3-f187-42d4-8a91-24d4028d3629}</destination>
+			<destination>{95a31a08-3b14-4792-8686-0157c59fee48}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{bfeb15e4-1080-4113-94c9-eceb490fc670}" />
 	<object class="AutomationPoint" id="{91ee3496-2993-4882-a4a6-f038dba82e11}">
 		<property name="position">
@@ -1014,6 +1045,15 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 		<relationship name="automationPoints">
 			<destination>{9e69e752-4111-4ec0-8664-eb662d2d807e}</destination>
 			<destination>{1da75f93-d053-4412-91fe-9bd18d1c9334}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{b5c76f0f-fcb4-4e90-8761-46d38450f337}">
+		<relationship name="parameter">
+			<destination>{7a11d3d2-4b24-4ec4-a84b-8bbb55797ecc}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{29a67d6e-25bd-4760-abb0-8c68af779165}</destination>
+			<destination>{4db7786f-6b79-47ad-adc1-5db55071bb3c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{6d1f5c39-36d8-4762-816a-db4fb13de8e2}" />
@@ -1057,6 +1097,15 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 			<destination>{e5cbd854-c551-4359-814c-ccfd56119831}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationCurve" id="{2f5e6ab4-c66e-45c6-8e59-2ad7172e2bff}">
+		<relationship name="parameter">
+			<destination>{7a11d3d2-4b24-4ec4-a84b-8bbb55797ecc}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{778c6f4b-818d-4ac0-825b-1864f5a28e56}</destination>
+			<destination>{72f30b58-c9c4-4b11-8034-8c9b00f28e9e}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{307f5d47-5d1d-4a8f-b1ff-2de3caac9143}" />
 	<object class="AutomationPoint" id="{99db7363-5378-487c-86b0-85e0c478ad66}">
 		<property name="position">
@@ -1094,6 +1143,15 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 			<destination>{23d4b205-3cae-41c8-88a3-b8be8592f733}</destination>
 			<destination>{a6e10a5f-f765-4273-b77b-60b844d9658f}</destination>
 			<destination>{312f50cf-76cd-42dc-84a6-db12b97c7d73}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{46912d1a-45cf-48c1-9e94-bc45f96e6fcf}">
+		<relationship name="parameter">
+			<destination>{7a11d3d2-4b24-4ec4-a84b-8bbb55797ecc}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{e3658712-e283-45a5-baf1-47da8cbd1f87}</destination>
+			<destination>{bc283b42-ea19-4255-8ee2-561835b859ae}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{cde7ba63-85bf-4897-9386-64f9a43b78fc}" />
@@ -1136,6 +1194,15 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 			<destination>{0fd45378-eb9b-45eb-885f-995b39985d4e}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationCurve" id="{d9d5eac1-f8c2-4412-9be1-664100963ba0}">
+		<relationship name="parameter">
+			<destination>{7a11d3d2-4b24-4ec4-a84b-8bbb55797ecc}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{24f96983-1465-441d-a64f-da12fb62894c}</destination>
+			<destination>{15495498-f436-44c4-92dd-f5ac84574ffa}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{6d218c7b-9901-4ead-a9fe-4b5a26b5dc54}" />
 	<object class="AutomationPoint" id="{4477a262-ad7a-4139-8e23-dc65b1ad3155}">
 		<property name="position">
@@ -1175,6 +1242,15 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 			<destination>{4f1a1afb-4b52-469d-b1ef-c3bef3f4f9e4}</destination>
 			<destination>{b2e0f4b3-7523-4257-84b7-3284db508b3e}</destination>
 			<destination>{6606c404-93bd-4c34-90f6-e04b6c1d2764}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{65a1fecd-a00e-41e1-b4d5-5c57ed4078ed}">
+		<relationship name="parameter">
+			<destination>{7a11d3d2-4b24-4ec4-a84b-8bbb55797ecc}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{2138f758-95c3-4570-af59-b6692737ec84}</destination>
+			<destination>{17488846-800a-4129-9141-00d9f077eb93}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a75635ef-a307-4269-85d4-8bde53e56bbb}" />
@@ -1226,6 +1302,22 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 			<value>3.81469727e-06</value>
 		</property>
 	</object>
+	<object class="AutomationPoint" id="{64cd5ad0-2436-4d86-b5c7-001bbf276fe0}">
+		<property name="position">
+			<value>0.19967707212055971</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{055033f4-a22f-4c66-8187-c41396be2250}">
+		<property name="position">
+			<value>0.49999999999999989</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{dd1002f0-7a01-4d54-a92e-c4b07c7b1ea4}">
 		<property name="position">
 			<value>0</value>
@@ -1250,6 +1342,22 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 			<value>3.81469727e-06</value>
 		</property>
 	</object>
+	<object class="AutomationPoint" id="{5f8954e3-f187-42d4-8a91-24d4028d3629}">
+		<property name="position">
+			<value>0.20075349838536058</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{95a31a08-3b14-4792-8686-0157c59fee48}">
+		<property name="position">
+			<value>0.5</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{9e69e752-4111-4ec0-8664-eb662d2d807e}">
 		<property name="position">
 			<value>0.02</value>
@@ -1264,6 +1372,22 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{29a67d6e-25bd-4760-abb0-8c68af779165}">
+		<property name="position">
+			<value>0.19967707212055971</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{4db7786f-6b79-47ad-adc1-5db55071bb3c}">
+		<property name="position">
+			<value>0.49892357373519908</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{384151d6-1746-4d6d-9930-d7fcc2177e8d}">
@@ -1322,6 +1446,22 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 			<value>-80</value>
 		</property>
 	</object>
+	<object class="AutomationPoint" id="{778c6f4b-818d-4ac0-825b-1864f5a28e56}">
+		<property name="position">
+			<value>0.20075349838536058</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{72f30b58-c9c4-4b11-8034-8c9b00f28e9e}">
+		<property name="position">
+			<value>0.5</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{2827f25f-95c3-4604-b959-c81ce9fedf04}">
 		<property name="position">
 			<value>0</value>
@@ -1357,6 +1497,22 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 	<object class="AutomationPoint" id="{312f50cf-76cd-42dc-84a6-db12b97c7d73}">
 		<property name="position">
 			<value>2</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{e3658712-e283-45a5-baf1-47da8cbd1f87}">
+		<property name="position">
+			<value>0.19967707212055971</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{bc283b42-ea19-4255-8ee2-561835b859ae}">
+		<property name="position">
+			<value>0.49946178686759946</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
@@ -1405,6 +1561,22 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 	<object class="AutomationPoint" id="{0fd45378-eb9b-45eb-885f-995b39985d4e}">
 		<property name="position">
 			<value>2</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{24f96983-1465-441d-a64f-da12fb62894c}">
+		<property name="position">
+			<value>0.20075349838536058</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{15495498-f436-44c4-92dd-f5ac84574ffa}">
+		<property name="position">
+			<value>0.5016146393972013</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
@@ -1464,6 +1636,22 @@ Alla fadear ut och in med hjälp av seek speed.</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{2138f758-95c3-4570-af59-b6692737ec84}">
+		<property name="position">
+			<value>0.19913885898815931</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{17488846-800a-4129-9141-00d9f077eb93}">
+		<property name="position">
+			<value>0.49784714747039821</value>
+		</property>
+		<property name="value">
+			<value>-75</value>
 		</property>
 	</object>
 </objects>
