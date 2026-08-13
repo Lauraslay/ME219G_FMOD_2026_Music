@@ -593,7 +593,7 @@ Parametern BossStage går från -1 till 4.
 			<value>16</value>
 		</property>
 		<property name="quantizationInterval">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{6b08be09-1540-45a5-a77a-14068e447a97}</destination>
@@ -650,7 +650,7 @@ Parametern BossStage går från -1 till 4.
 			<value>16</value>
 		</property>
 		<property name="quantizationInterval">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{6b08be09-1540-45a5-a77a-14068e447a97}</destination>
@@ -673,7 +673,7 @@ Parametern BossStage går från -1 till 4.
 			<value>16</value>
 		</property>
 		<property name="quantizationInterval">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{6b08be09-1540-45a5-a77a-14068e447a97}</destination>
