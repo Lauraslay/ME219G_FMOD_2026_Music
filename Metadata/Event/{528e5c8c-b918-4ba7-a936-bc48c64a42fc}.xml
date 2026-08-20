@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{528e5c8c-b918-4ba7-a936-bc48c64a42fc}">
+		<property name="note">
+			<value>Samma som Music fast för Zone 4.
+
+I unity spelas båda eventen samtidigt men mutas beroende på zone. Jag gjorde så för att musiken ska spelas på samma ställe i tracken istället för att börja om från början.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{59209c4a-aef9-4772-9632-5601e1231bbf}">
 		<property name="note">
-			<value>Med hjälp av en snapshot sm sänker alla andra volymer spelas endast Defeat stingern när den triggas.</value>
+			<value>Med hjälp av en snapshot som sänker alla andra volymer spelas endast Defeat stingern när den triggas.</value>
 		</property>
 		<property name="color">
 			<value>Magenta</value>
